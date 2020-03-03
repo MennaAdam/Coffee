@@ -1,0 +1,642 @@
+/* Start Global */
+:root {
+    --subHeader-color: #777777;
+    --header-color: #222222;
+    --paragraph-color: #656565;
+    --font-color: #ffffff;
+    --hover-color: #b68834;
+    --navbar-background: rgba(20, 2, 0, 0.8);
+    --star-color: orange;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.color{
+    color: var(--star-color);
+}
+
+.header p{
+    color: var(--paragraph-color);
+}
+
+.review .header p{
+    color: var(--font-color);
+}
+/**** Start Custom Framework ****/
+/*++++ Start Sections ++++*/
+.section-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-footer-100 {
+    padding-top: 199px;
+    padding-bottom: 100px;
+}
+
+/*++++ End Sections ++++*/
+
+/*++++ Start Padding ++++*/
+/*---- Start Padding Top ---*/
+.pt-05 {
+    padding-top: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+/*---- End Padding Top ---*/
+
+/*---- Start Padding Right ---*/
+.pr-05 {
+    padding-right: 5px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-25 {
+    padding-right: 25px;
+}
+
+/*---- End Padding Right ---*/
+
+/*---- Start Padding Bottom ----*/
+
+.pb-05 {
+    padding-bottom: 5px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+/*---- End Padding Bottom ----*/
+
+/*---- Start Padding Left ----*/
+.pl-05 {
+    padding-left: 5px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-25 {
+    padding-left: 25px;
+}
+
+/*---- End Padding Left ----*/
+/*---- Start Padding Y ----*/
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*---- End Padding Y ----*/
+
+/*---- Start Padding X ----*/
+.px-10 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.px-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.px-25 {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.px-30 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/*---- End Padding X ----*/
+
+/*++++ End Padding ++++*/
+
+/*++++ Start Margin ++++*/
+/*---- Start Margin Top ---*/
+.mt-05 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+/*---- End Margin Top ---*/
+
+/*---- Start Margin Right ---*/
+.mr-05 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+/*---- End Margin Right ---*/
+
+/*--- Start Margin Bottom ---*/
+.mb-05 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+/*--- End Margin Bottom ---*/
+
+/*---- Start Margin Left ---*/
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+/*---- End Margin Left ---*/
+
+/*---- Start Margin Y ----*/
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.my-45{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/*---- End Margin Y ----*/
+
+/*---- Start Margin X ----*/
+.mx-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mx-15 {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mx-20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mx-25 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.mx-30 {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/*---- End Margin X ----*/
+
+/*++++ End Margin ++++*/
+
+/**** End Custom Framework ****/
+
+/* End Global */
+
+/* Start Main Header */
+
+.main-header {
+    position: relative;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: var(--font-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--font-color);
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--font-color);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--hover-color);
+}
+
+.navbar-toggler-icon{
+    color: var(--hover-color);
+}
+.home-caption{
+    position: absolute;
+    top: 50%;
+    transform: translate(-21%,60%);
+}
+
+.home-caption h1{
+    font-size: 70px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.home-caption .btn-caption{
+    background-color: var(--font-color);
+    text-transform: uppercase;
+    color: var(--header-color);
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: all 0.6s ease-in-out;
+}
+
+.home-caption .btn-caption:hover{
+    background-color: transparent;
+    color: var(--font-color);
+    border: 1px solid var(--font-color);
+}
+
+/* End Main Header */
+
+/* Start About Section */
+.about-us .video{
+    background-image: url(../img/video-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.about-us .video .overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+.about-us .video img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-us .about-coffee .first{
+    color: var(--hover-color);
+    font-size: 15px;
+}
+
+.about-us .about-coffee h2{
+    color: var(--header-color);
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.about-us .about-coffee .second{
+    color: var(--header-color);
+    font-size: 15px;
+}
+
+.about-us .about-coffee .third{
+    color: var(--paragraph-color);
+}
+
+/* End About Section */
+
+/* Start Coffee Section */
+.our-coffee{
+    background-image: url(../img/menu-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.our-coffee .coffee-card{
+    background-color: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(182, 136, 52, 0.2);
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+}
+
+.our-coffee .coffee-card .title{
+    color: var(--header-color);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.our-coffee .coffee-card .price{
+    color: var(--hover-color);
+    text-align: right;
+    font-weight: 500;
+}
+
+.our-coffee .coffee-card .text{
+    color: var(--paragraph-color);
+    font-size: 15px;
+}
+/* End Coffee Section */
+
+/* Start Review Section */
+
+.review{
+    background-color: var(--hover-color);
+    color: var(--font-color);
+}
+
+.review .customer p{
+    font-size: 15px;
+    width: 75%;
+}
+
+.name h4{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.counter .count h5{
+    font-size: 45px;
+}
+/* End Review Section */
+
+/* Start Blog Section */
+
+.our-blog .btns .btn-blog{
+    color: var(--header-color);
+    border: 1px solid #eee;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-size: 13px;
+    transition: all 0.6s ease-in-out;
+}
+
+.our-blog .btns .btn-blog:hover{
+    color: var(--font-color);
+    background-color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
+
+.our-blog .article-title h5{
+font-size: 18px;
+font-weight: 600;
+}
+
+.our-blog .article-title p{
+    color: var(--paragraph-color);
+    font-size: 15px;
+}
+
+.our-blog .article-title span{
+    font-weight: 600;
+}
+/* End Blog Section */
+
+/* Start Footer Section */
+
+footer{
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: var(--font-color);
+}
+
+footer .newsletter .btn-outline-secondary{
+    background-color: var(--hover-color);
+    color: var(--font-color);
+    border-color: var(--hover-color);
+}
+
+footer .newsletter .btn-outline-secondary.focus, .btn-outline-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(182,136,52,.5);
+}
+
+footer .newsletter .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+footer .newsletter .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--hover-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(182,136,52,.5);
+}
+
+footer p,
+footer label{
+    font-size: 13px;
+}
+
+footer .follow-us i{
+    padding: 10px;
+}
+/* End Footer Section */
+
+/* Start Media Query */
+@media only screen and (max-width: 600px){
+    .change {
+        background-color:  rgba(20, 2, 0, 0.8) !important;
+    }
+    .home-caption {
+        transform: translate(1%,109%);
+    }
+
+    .home-caption h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and  (min-width: 768px) and (max-width: 991px){
+    .change {
+        background-color:  rgba(20, 2, 0, 0.8) !important;
+    }
+
+    .home-caption {
+        transform: translate(1%,50%);
+    }
+
+    .home-caption h1 {
+        font-size: 77px;
+    }
+}
+/* End Media Query */
